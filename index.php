@@ -18,7 +18,7 @@ setcookie($viewscookie, $viewscount, time() + (86400 *1), "/");  // 86400 second
 //echo "+ '" .$viewscount. "'views!";
 echo "<html><style>body { font-size: 300%; font-family: Arial; color: yellow; background-color: black;}</style><body> <h1>+  $total
   views</h1> <h1>$viewscount total views</h1></body></html>";
-echo "<script> var audio = new Audio('http://torchive.epizy.com/bell.wav'); audio.play();  </script>";
+echo "<script> var audio = new Audio('http://example.com/bell.wav'); audio.play();  </script>";
 }
 }
 ?>
